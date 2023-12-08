@@ -1,0 +1,14 @@
+@DemoTestAPI_HostAddress = https://localhost:7157
+
+GET {{DemoTestAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{DemoTestAPI_HostAddress}}/weatherforecast
+
+###
+
+GET {{DemoTestAPI_HostAddress}}/api/customer
+
+###
